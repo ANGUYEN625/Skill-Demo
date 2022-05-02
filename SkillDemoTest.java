@@ -4,6 +4,6 @@ import org.junit.*;
 public class SkillDemoTest{
     @Test
     public void testConnectStr(){
-        assertEquals("forty five", SkillDemo.connectStr("forty", "five"));
+        assertEquals("forty-five", SkillDemo.connectStr("forty", "five"));
     }
 }
